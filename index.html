@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timio - Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            color: #1d1d1f;
+            background: #f5f5f7;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+        h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; }
+        h2 { font-size: 1.3rem; font-weight: 600; margin-top: 40px; margin-bottom: 16px; }
+        p { margin-bottom: 16px; color: #424245; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .subtitle { font-size: 1.1rem; color: #6e6e73; margin-bottom: 32px; }
+        .hero {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .hero p { color: #6e6e73; font-size: 1.05rem; }
+        .hero-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 26px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+            margin-bottom: 16px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+        }
+        .card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
+        .card p { margin-bottom: 0; font-size: 0.95rem; }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        @media (max-width: 540px) {
+            .feature-grid { grid-template-columns: 1fr; }
+        }
+        .feature-grid .card { display: flex; flex-direction: column; }
+        .faq-q { font-weight: 600; margin-bottom: 4px; color: #1d1d1f; }
+        .faq-a { margin-bottom: 20px; }
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #d2d2d7;
+            font-size: 0.85rem;
+            color: #86868b;
+        }
+        .footer a { color: #86868b; }
+        .nav { margin-bottom: 32px; font-size: 0.9rem; }
+        .nav a { margin-right: 16px; }
+        .badge {
+            display: inline-block;
+            background: #e8e8ed;
+            color: #1d1d1f;
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 4px 10px;
+            border-radius: 20px;
+            margin-right: 6px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="index.html">Support</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+
+        <div class="hero">
+            <img src="images/app-icon.png" alt="Timio" class="hero-icon">
+            <h1>Timio</h1>
+            <p>See the world's time, relative to yours.</p>
+            <div style="margin-top: 12px;">
+                <span class="badge">iOS 17+</span>
+                <span class="badge">iPhone</span>
+                <span class="badge">Free</span>
+                <span class="badge">No Account Required</span>
+            </div>
+        </div>
+
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="card">
+                <h3>Relative Time View</h3>
+                <p>Select a base city and instantly see how time compares across all your other locations with clear offset labels.</p>
+            </div>
+            <div class="card">
+                <h3>Time Scrubber</h3>
+                <p>Drag the ruler-style slider to plan meetings up to 36 hours ahead or behind and see equivalent times everywhere.</p>
+            </div>
+            <div class="card">
+                <h3>Communication Hours</h3>
+                <p>Color-coded time indicators show whether it's a good, marginal, or poor time to reach someone in another city.</p>
+            </div>
+            <div class="card">
+                <h3>486 Cities Worldwide</h3>
+                <p>Search by city name, country, or common aliases like USA, UK, and UAE. Covers every major city globally.</p>
+            </div>
+            <div class="card">
+                <h3>Reorderable List</h3>
+                <p>Drag to rearrange your cities in any order. Your base city stays pinned at the top for easy reference.</p>
+            </div>
+            <div class="card">
+                <h3>Dark Theme</h3>
+                <p>Sleek dark interface inspired by Apple's World Clock. Easy on the eyes day and night.</p>
+            </div>
+        </div>
+
+        <h2>Getting Started</h2>
+        <div class="card">
+            <h3>1. Add Cities</h3>
+            <p>Tap the + button to search and add cities you want to track. Search by city name or country.</p>
+        </div>
+        <div class="card">
+            <h3>2. Set Your Base City</h3>
+            <p>Long-press any city and tap "Set as Base City". All other times will be shown relative to this city.</p>
+        </div>
+        <div class="card">
+            <h3>3. Check Time Differences</h3>
+            <p>See at a glance how far ahead or behind each city is, with date labels and offset indicators.</p>
+        </div>
+        <div class="card">
+            <h3>4. Plan a Meeting</h3>
+            <p>Drag the time scrubber to pick a future time and instantly see what time it will be in every city.</p>
+        </div>
+        <div class="card">
+            <h3>5. Customize Settings</h3>
+            <p>Tap the gear icon to switch between 12/24-hour format, toggle color-coded times, and set your reachable hours.</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p class="faq-q">Does Timio require an internet connection?</p>
+        <p class="faq-a">No. Timio works entirely offline. All timezone calculations are performed on your device.</p>
+
+        <p class="faq-q">How do I remove a city?</p>
+        <p class="faq-a">Swipe left on any city to delete it, or long-press and tap "Remove".</p>
+
+        <p class="faq-q">How do I change the base city?</p>
+        <p class="faq-a">Long-press on any city in your list and select "Set as Base City". All offsets will recalculate instantly.</p>
+
+        <p class="faq-q">What do the colors on the time mean?</p>
+        <p class="faq-a">When color-coded time is enabled in Settings, green means it's within reachable hours, yellow means it's borderline, and red means it's outside reachable hours. You can configure reachable hours in Settings.</p>
+
+        <p class="faq-q">How do I reset the time scrubber?</p>
+        <p class="faq-a">Double-tap the slider to snap it back to "Now".</p>
+
+        <p class="faq-q">Can I search for cities by country?</p>
+        <p class="faq-a">Yes. Type a country name or common abbreviation (USA, UK, UAE, etc.) in the search bar to find all cities in that country.</p>
+
+        <p class="faq-q">Is my data shared with anyone?</p>
+        <p class="faq-a">No. Timio has no analytics, no ads, no accounts, and no servers. Your city selections and preferences stay on your device. See our <a href="privacy-policy.html">Privacy Policy</a> for details.</p>
+
+        <h2>Contact</h2>
+        <p>If you need help or have feedback, reach out at <a href="mailto:praveen.sxi@gmail.com">praveen.sxi@gmail.com</a>.</p>
+
+        <div class="footer">
+            <p>&copy; 2026 Timio &middot; <a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
