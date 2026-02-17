@@ -60,6 +60,19 @@
         .footer a { color: #86868b; }
         .nav { margin-bottom: 32px; font-size: 0.9rem; }
         .nav a { margin-right: 16px; }
+        .screenshots {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding: 8px 0 16px;
+            -webkit-overflow-scrolling: touch;
+        }
+        .screenshots img {
+            height: 420px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+            flex-shrink: 0;
+        }
         .badge {
             display: inline-block;
             background: #e8e8ed;
@@ -90,6 +103,13 @@
                 <span class="badge">Free</span>
                 <span class="badge">No Account Required</span>
             </div>
+        </div>
+
+        <div class="screenshots">
+            <img src="images/home_default_view.png" alt="City list with time offsets">
+            <img src="images/home_color_view.png" alt="Color-coded communication hours">
+            <img src="images/search_view.png" alt="City search by country">
+            <img src="images/settings_view.png" alt="Settings view">
         </div>
 
         <h2>Features</h2>
